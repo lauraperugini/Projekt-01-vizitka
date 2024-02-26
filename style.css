@@ -1,3 +1,26 @@
 /* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
+
+h1 {
+border: 4px dashed lightcoral;
+text-align: center;
+}
+
+h3{
+    text-align: center;
+    font-style: italic;
+    color: brown;
+}
+
+img {
+    width: 30%;
+    border-radius: 50%;
+    border: 6px dotted gold;
+}
+
+P {
+    border: 2px solid lightcoral;
+    background-color: antiquewhite;
+    text-align: center;
+}
