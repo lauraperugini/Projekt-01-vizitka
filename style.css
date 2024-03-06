@@ -2,25 +2,108 @@
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
 
+
+/*Title*/
+
+.title {
+    position: relative;
+    padding: 100px 180px;
+}
+
+
 h1 {
-border: 4px dashed lightcoral;
-text-align: center;
+    border: 4px;
+    font-size: 60px;
+    font-family: "degular";
+    }
+
+.coder {
+    text-align: left;
 }
 
-h3{
+@font-face {
+    font-family: "degular";
+    src: url("DegularDisplay-Regular.otf") format("truetype");
+}
+
+body {
+    font-family: "degular";
+}
+
+.portfolio {
+    position: relative left;
+    background-color: #cb99c9;
+    margin: -170px 500px 20px 270px;
+
+}
+
+
+
+/*Nav menu*/
+ul{
+    width: 100%;
+    display: table;
     text-align: center;
-    font-style: italic;
-    color: brown;
 }
 
-img {
-    width: 30%;
-    border-radius: 50%;
-    border: 6px dotted gold;
+.menu li {
+    display: inline-block;
+    align-items: center;
+    margin: 16px;
 }
 
-P {
-    border: 2px solid lightcoral;
-    background-color: antiquewhite;
-    text-align: center;
+.menu {
+    margin: 0;
+}
+
+.menu a {
+    text-decoration: none;
+    background-color: white;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 70%;
+    color: black;
+    position: relative;
+}
+
+.menu a:hover {
+    background-color: mintcream ;
+    left: 50px;
+}
+
+/*.menu {
+    background-color: bisque;
+}*/
+
+
+/*Omne*/
+
+.aboutme {
+    overflow: auto;
+}
+
+
+.laura {
+    width: 300px;
+    height: 320px;
+    margin: 20px;
+    float: left;
+    border-radius: 25%;
+    overflow: auto;
+
+}
+
+.omne {
+    border: dotted #C3B1E1;
+
+}
+.omne {
+    position: static;
+    text-align: justify;
+    overflow: auto;
+    padding: 20px;
+}
+    
+.Contact {
+    padding-left: 30px;
 }
