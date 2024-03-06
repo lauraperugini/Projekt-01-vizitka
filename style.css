@@ -54,13 +54,16 @@ ul{
 
 .menu {
     margin: 0;
+    position: sticky;
+    top: 0;
+    background-color: white;
 }
 
 .menu a {
     text-decoration: none;
     background-color: white;
     display: inline-block;
-    padding: 20px;
+    padding: 8px;
     border-radius: 70%;
     color: black;
     position: relative;
