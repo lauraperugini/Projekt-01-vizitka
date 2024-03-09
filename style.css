@@ -7,7 +7,7 @@ html { box-sizing: border-box; }
 
 .title {
     position: relative;
-    padding: 100px 180px;
+    padding: 50px 100px;
 }
 
 
@@ -15,6 +15,8 @@ h1 {
     border: 4px;
     font-size: 60px;
     font-family: "degular";
+    height:120px ;
+    width:401px ;
     }
 
 .coder {
@@ -31,10 +33,11 @@ body {
 }
 
 .portfolio {
-    position: relative left;
+    position: relative;
     background-color: #cb99c9;
-    margin: -170px 500px 20px 270px;
-
+    margin: -80px 220px 20px 220px;
+    height: 382px;
+    width: 622px;
 }
 
 
@@ -63,15 +66,15 @@ ul{
     text-decoration: none;
     background-color: white;
     display: inline-block;
-    padding: 8px;
+    padding: 12px;
     border-radius: 70%;
     color: black;
     position: relative;
+    border-bottom: solid #C3B1E1;
 }
 
 .menu a:hover {
     background-color: mintcream ;
-    left: 50px;
 }
 
 /*.menu {
@@ -79,7 +82,8 @@ ul{
 }*/
 
 .hello {
-    width: 800px;
+    width: 880px;
+    height: 200px;
     margin: 2px;
     padding-left: 50px;
 }
@@ -88,6 +92,7 @@ ul{
 
 .aboutme {
     overflow: auto;
+    width: 1080px;
 }
 
 
@@ -102,16 +107,32 @@ ul{
 }
 
 .omne {
-    border: dotted #C3B1E1;
-
+    border: 2px solid #C3B1E1;
+    border-radius: 12px;
 }
 .omne {
     position: static;
-    text-align: justify;
+    text-align: left;
     overflow: auto;
     padding: 20px;
+    font-size: 16px;
+    letter-spacing: normal;
+
 }
     
+/*Contact*/
+
 .Contact {
     padding-left: 30px;
 }
+ h2 {
+    border-bottom: double #C3B1E1;
+ }
+
+ .myprojects {
+    padding-left: 30px;
+ }
+
+ a {
+    color: purple;
+ }
