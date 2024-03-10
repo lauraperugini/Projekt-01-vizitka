@@ -36,8 +36,8 @@ body {
     position: relative;
     background-color: #cb99c9;
     margin: -80px 220px 20px 220px;
-    height: 382px;
-    width: 622px;
+    height: 550px;
+    width: 850px;
 }
 
 
@@ -103,21 +103,21 @@ ul{
     float: left;
     border-radius: 25%;
     overflow: auto;
-
 }
 
-.omne {
-    border: 2px solid #C3B1E1;
+.aboutme
+div {   
+     border: 2px solid #C3B1E1;
     border-radius: 12px;
 }
-.omne {
+.aboutme a {
+    float: right;
     position: static;
     text-align: left;
     overflow: auto;
     padding: 20px;
     font-size: 16px;
     letter-spacing: normal;
-
 }
     
 /*Contact*/
