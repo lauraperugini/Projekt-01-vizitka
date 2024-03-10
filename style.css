@@ -105,10 +105,10 @@ ul{
     overflow: auto;
 }
 
-.aboutme
-div {   
+.aboutme {   
      border: 2px solid #C3B1E1;
     border-radius: 12px;
+    margin: 20px 180px 20px 180px;
 }
 .aboutme a {
     float: right;
