@@ -107,6 +107,8 @@ ul{
 .aboutme {   
      border: 2px solid #C3B1E1;
     border-radius: 12px;
+    overflow: auto;
+    padding: 20px;
     margin: 20px 180px 20px 180px;
 }
 .aboutme a {
